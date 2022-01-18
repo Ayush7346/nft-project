@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@600&family=Atkinson+Hyperlegible&family=Fugaz+One&family=Lato&family=Montserrat:wght@500&family=Poppins:wght@500&family=Shadows+Into+Light&family=Shippori+Antique&family=Varela+Round&display=swap");
+
+.upper__heading {
+  font-family: "Assistant", sans-serif;
+  display: flex;
+  font-size: 25px;
+  margin-top: 50px;
+  font-weight: bolder;
+}
+
+.upper__home {
+  display: flex;
+  flex-direction: column;
+}
+
+.lower__homepage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#filters {
+  display: flex;
+  flex-direction: row;
+}
+
+#dropdownMenuButton2 {
+  margin-left: 150px;
+}
+
+#dropdownMenuButton3 {
+  margin-right: 100px;
+}
+
+.middle__homepage {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.middle__heading {
+  font-family: "Assistant", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 18.4px;
+  color: black;
+  text-decoration: none;
+}
