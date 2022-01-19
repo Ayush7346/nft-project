@@ -41,15 +41,16 @@ export class Collection_homepage extends Component {
                 <div className='row   mx-0 text-center'>
                     {/* map- API */}
                     {
-                        [1, 2].map(() => {
+                        [1].map(() => {
                             return (
+                                <div class="row">
+                                    <Collections_tile
+                                        Collections_title={"Abstract Illusion"}
+                                        collection_image={"https://akm-img-a-in.tosshub.com/businesstoday/images/story/202111/ab-nft-sixteen_nine.jpg"}
+                                        no_of_items={"2"}
 
-                                <Collections_tile
-                                    Collections_title={"Abstract Illusion"}
-                                    collection_image={"https://akm-img-a-in.tosshub.com/businesstoday/images/story/202111/ab-nft-sixteen_nine.jpg"}
-                                    no_of_items={"2"}
-
-                                />
+                                    />
+                                </div>
                             );
                         })
                     }

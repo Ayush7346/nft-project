@@ -6,6 +6,7 @@ export default function Nft_tile({ image, title, price, maxPrice, daysLeft }) {
         <div className='col-md-3 col-lg-3 col-sm-6 col-11'>
             <div className='container__tile'>
                 <img id='nft__photo' className='img-fluid' src={image} alt='/' />
+                <img id='like_icon' src={require('./images/Like.png')} />
                 <div className='tile__details'>
                     <div className='container__up'>
                         <h6 className='title'>{title}</h6>

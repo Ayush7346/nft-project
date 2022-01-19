@@ -13,54 +13,10 @@ export class Upper__homepage extends Component {
 
 
                     <div className='middle__homepage'>
-                        <Link className='middle__heading' to='/nft'>NFTS</Link>
-                        <Link className='middle__heading' to='/collections'>Collections</Link>
+                        <Link className='middle__heading' to='/nfts'>NFTS</Link>
+                        <Link className='middle__heading' to='/MarketPlace/collections'>Collections</Link>
                     </div>
 
-
-                    {/* 
-
-                    <div className='lower__homepage'>
-                        <div id='filters'>
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" placeholder='All'
-                                    style={{ width: "200%", backgroundColor: "white", color: "black", border: "1px solid #ddd" }}
-                                >
-                                    Sale type
-
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </div>
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"
-                                    style={{ width: "80%", backgroundColor: "white", color: "black", border: "1px solid #ddd" }}>
-                                    Price range
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false"
-                                style={{ width: "100%", backgroundColor: "white", color: "black", border: "1px solid #ddd" }}
-                            >
-                                Sort by
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </div>
-
-                    </div> */}
 
                 </div>
             </div >

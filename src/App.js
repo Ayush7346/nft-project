@@ -8,6 +8,7 @@ import Footer from './component/Footer';
 import LeaderBoard from './component/LeaderBoard';
 import Collections_tile from './component/Collections_tile';
 import Top_collection from './component/Top_collection';
+import Create from './component/Create';
 
 import {
   BrowserRouter as Router,
@@ -19,6 +20,7 @@ import Collection_homepage from './component/Collection_homepage';
 import HelpCenter from './component/HelpCenter';
 import Buying from './component/Buying';
 
+
 function App() {
 
 
@@ -26,16 +28,22 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
+        {/* <Tile__homepage /> */}
+        <switch>
+          <Routes>
 
-        <Routes>
-          <Route exact path='/nft' element={<Tile__homepage />} />
-          <Route exact path='/collections' element={<Collection_homepage />} />
-          <Route exact path='/HelpCenter' element={<HelpCenter />} />
-          <Route exact path='/MarketPlace' element={<Upper__homepage />} />
-          <Route exact path='/LeaderBoard' element={< LeaderBoard />} />
-          <Route exact path='/Buying' element={< Buying />} />
+            <Route path='/' element={<Upper__homepage />} />
+            <Route path='/' element={<Tile__homepage />} />
+            <Route exact path='/:MarketPlace/collections' element={<Collection_homepage />} />
+            <Route exact path='/HelpCenter' element={<HelpCenter />} />
 
-        </Routes>
+            <Route exact path='/LeaderBoard' element={< LeaderBoard />} />
+            <Route exact path='/Buying' element={< Buying />} />
+            <Route exact path='/create' element={< Create />} />
+
+          </Routes>
+
+        </switch>
       </Router>
       <Footer />
     </div>
