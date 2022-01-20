@@ -20,6 +20,7 @@ import {
 import Collection_homepage from './component/Collection_homepage';
 import HelpCenter from './component/HelpCenter';
 import Buying from './component/Buying';
+import CreateNFT from './component/CreateNFT';
 
 
 function App() {
@@ -29,19 +30,20 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
+
         {/* <Tile__homepage /> */}
         <switch>
           <Routes>
 
-            <Route path='/' element={<Upper__homepage />} />
-            <Route path='/nfts' element={<Tile__homepage />} />
+            <Route exact path='/' element={<Upper__homepage />} />
+            <Route exact path='/' element={<Tile__homepage />} />
             <Route exact path='/:MarketPlace/collections' element={<Collection_homepage />} />
             <Route exact path='/HelpCenter' element={<HelpCenter />} />
             <Route exact path='/topCollection' element={<Top_collection />} />
             {/* <Route exact path='/LeaderBoard' element={< LeaderBoard />} /> */}
             <Route exact path='/Buying' element={< Buying />} />
             <Route exact path='/create' element={< Create />} />
-
+            <Route exact path='/create/createnft' element={< CreateNFT />} />
           </Routes>
 
         </switch>

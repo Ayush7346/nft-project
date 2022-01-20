@@ -13,7 +13,7 @@ export class Upper__homepage extends Component {
 
 
                     <div className='middle__homepage'>
-                        <Link className='middle__heading' to='/nfts'>NFTS</Link>
+                        <Link className='middle__heading' to='/'>NFTS</Link>
                         <Link className='middle__heading' to='/MarketPlace/collections'>Collections</Link>
                     </div>
 

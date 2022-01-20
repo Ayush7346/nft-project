@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 // import './Create.css'
 
 
@@ -21,9 +22,9 @@ function Create() {
 
 
                 <div class="card col-md-3 col-lg-2 col-sm-6 col-12 mx-5 my-5" style={{ cursor: "pointer" }}>
-                    <img id="create_logo"
+                    <Link to='/create/createnft'> <img id="create_logo"
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/800px-MetaMask_Fox.svg.png"
-                        alt="..." />
+                        alt="..." /> </Link>
                     <div class="card-body">
                         <h5 class="card-title"> Metamask</h5>
                         <p class="card-text">One of the most secure wallets<br /> with great flexibility</p>

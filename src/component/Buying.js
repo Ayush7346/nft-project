@@ -1,9 +1,10 @@
 import React from 'react'
-// import './Buying.css'
+
 import { Link } from 'react-router-dom'
 function Buying() {
     return (
         <div>
+
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
